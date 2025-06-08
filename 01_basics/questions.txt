@@ -1,0 +1,56 @@
+ 
+
+// Angular =>
+
+// Angular is one of the most popular javascript framework for builiding clientside applications.
+and it provides lots of reuseble code like predefine methods, classes, interfaces etc. which we can use 
+to create dyanamic clientside applications. genrally we use angular for creating singlepage applications.
+
+
+  Qu. What is Angular ?
+  Ans. Angular is a development platform for builiding a single-page application for mobile and desktop. It is used for clientside applications like HTML, CSS and a programing language like Javascript or Typescript. Angular is not a programing language  in itself like javascript. Insted it's a framework which uses programing language like Javascript or Typescript.
+
+// so we can say that Angular is a Javascript Framework which allows us to create Single Page Applications(SPA) .
+
+// => Angular is a Javascript Framework it's not a programing language.
+// => We use angular for creating Single Page Applications (SPA).
+
+
+ Qu. What is Framework ?
+ Ans. A Framework is like a platform for developing software applications. A Framework can have predefine classes and fuctions that can be re-used to perform and add several fuctionalities, which otherwise we would have to write from scratch by our own.
+
+// In Simple Words
+// A Framework is a collection of all pre-defined classes which provides APIs for performing diffrent operations when used in Application and angular is one such framework it provides classes and methods which we can re-use in our application insted of writing them from scratch. 
+
+
+ Qu. What is Single Page Application ?
+ Ans. A single page appication is a web application, which has only one HTML page. when we navigate around, only the content of that HTML page changes. The page itself never change. and also the content is changed by javascript dynamically .
+
+ Qu. What is the advantage of using a single page application and why do we want create a single page application in first place ?
+
+ Ans. advantages of SPA
+ Since we are using Javascript to change the content of the page because of this loading a new HTML content is much faster because here we are not reaching out to the server to request a new piece of HTML data, everytime we navigate to a diffrent URL and this approach allow us to create an application which is very fast  reactive just like a mobile application.
+
+// =>  if you need some data from the server you can loaded in the background without making the webpage unresponsive. and once the data is loaded you can displayed that data in your application. so a single page application is quite fast and reactive because we are not requesting HTML data from the server everytime we are navigating around instead behind the scences javascript takes care of randering the appropriate ui based on the resource which we have requested for. and this makes SPA quite fast and reactive.
+
+
+
+ // why choose Angular 
+ //Limitations of jaascript or jquery
+ Qu. why you might want to use angular for you next web application project.
+ Ans. we might say that all these things are also possible with playing javascript and or jQuery then why we need a completely new framework like angular for this. well we can certainly use javascript or jQuery to do the same thing which we do with angular but if we use javascript or jQuery as the application grows the appication gets more and more complex and vanilla javascript or jquery code becomes hard to maintain and we will need a way to properly structure our application a lot of applications built using vanilla javascript or jquery is hard to test. also there are some fuctionalities which we have to right from scratch when using javascript or jquery and this is the reason over past few years various frameworks have been built and evolve to make web development easier. and angular is an example of one such framework.
+
+
+ // => Advantages of using angular
+  There are several benefits of using angular framework for developing applications instead of using vanilla javascript or jquery .
+  // Angular gives our application a clean and loosely coupled structure that is east to understand and easy to maintain. it also brings a lot of utility code which we can re-used in a lot of applications, Especially when dealing with user navigation and browser history. Applications built with angular are most testable we can easily write automated tests to test various parts of a angular application.
+
+  // => so over past few years there are several versions of angular that has been released. so let's know what are these versions and how they are diffrent ?
+
+  // => Versions of angular 
+  // It all started in october 2010  when the first version of angular is released and it was called angular JS this version of angular is completely diffrent from the angular we use today. Angular JS was created as a 
+  javascript framework for builiding client applications soon it gained popularity and it was by far the most popular javascript framework availble for creating web applications packten but this framework was not designed with the need of todays applications in might and plus it was overly complex so the angular JS team had to simplyfy  this framework and getrid of all the issues which it had. In the year 2016 the angular team
+  decided to re-write the original framework to scratch using Typescript as the programing language. and instead of calling it angular js this simply named it angular this angular framework is completely diffrent from its predisessers this is to angular js this version of angular was called as angular 2. now angular 2 was not a simple upgrade to previous version that is to angular js it was completely re-written from ground up and it was completely diffrent from angular 1. angular 2 also fixed all the issues which angular 1 had. so now we have another angular framework which is angular 2 and remember angular 2 is not angular js. these two are completely diffrent frameworks . nowdays angular 1 is hardly in use and since the intial release of angular 2 there are other versions of angular which has been released over the years. for example- angular 4,
+  angular 5, 6 and so on angular 16. and after the release of angular 2 the angular team simply adhaje to a version in screen where a new version of angular is released every 6 months and that new version a however not the complete re-write instead they have some minor changes of few new features also remember that angular 2 and latter versions of angular are simply refered to as angular so now we have two kinds of angular - angular js wich is the first version of angular and angular which is angular 2 and the latter versions of angular.
+
+
