@@ -71,5 +71,9 @@ npm install - global @angular/cli@latest
 // To run an angular project first we need to move to the project folder using command prompt/terminal andd then we need to type following command
 // => ng serve  
 
-// what will this ng serve command do is first it will compile the angular projects it will genrate bundals for javascript and CSS files and then it will open a live development server on which we can run this project and after press enter these bundles have been created this project has been compiled  
+// what will this ng serve command do is first it will compile the angular projects it will genrate bundals for javascript and CSS files and then it will open a live development server on which we can run this project and after press enter these bundles have been created this project has been compiled  and as long as that process running we will be able to access this webpage on localhost portno 4200
+
+// if we kill that process which is currently running in that case we will not be able to access this angular 
+application on localhost :4200
+// In order to kill the process we can simply press ctrl+C , so the process has been terminated now we should not be able to access this web application
 
