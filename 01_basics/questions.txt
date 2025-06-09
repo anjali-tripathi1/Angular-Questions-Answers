@@ -54,3 +54,22 @@ to create dyanamic clientside applications. genrally we use angular for creating
   angular 5, 6 and so on angular 16. and after the release of angular 2 the angular team simply adhaje to a version in screen where a new version of angular is released every 6 months and that new version a however not the complete re-write instead they have some minor changes of few new features also remember that angular 2 and latter versions of angular are simply refered to as angular so now we have two kinds of angular - angular js wich is the first version of angular and angular which is angular 2 and the latter versions of angular.
 
 
+  // => Angular CLI
+//  Angular CLI is a command line tool/interface which we use to crate new angular project or genrate some boiler plate code as well as create deployable packages.  
+to install CLI we are going to use npm command to install this angular CLI package.
+npm install - global @angular/cli@latest
+
+// Just to ensure that the installation is successful we can run other command
+// type => ng version
+
+// => In order to create angular project 
+// To create angular project first we need to move the folder where we want to create the project and for that we can use command prompt/terminal and type following command.
+// ng new project-name 
+
+// Lets's now run the angular project which we have just created and let us run it in browser by using another cli command 
+// => In order to compile and run 
+// To run an angular project first we need to move to the project folder using command prompt/terminal andd then we need to type following command
+// => ng serve  
+
+// what will this ng serve command do is first it will compile the angular projects it will genrate bundals for javascript and CSS files and then it will open a live development server on which we can run this project and after press enter these bundles have been created this project has been compiled  
+
