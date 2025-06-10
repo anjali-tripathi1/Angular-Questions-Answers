@@ -36,14 +36,14 @@ to create dyanamic clientside applications. genrally we use angular for creating
 
 
  // why choose Angular 
- //Limitations of jaascript or jquery
- Qu. why you might want to use angular for you next web application project.
- Ans. we might say that all these things are also possible with playing javascript and or jQuery then why we need a completely new framework like angular for this. well we can certainly use javascript or jQuery to do the same thing which we do with angular but if we use javascript or jQuery as the application grows the appication gets more and more complex and vanilla javascript or jquery code becomes hard to maintain and we will need a way to properly structure our application a lot of applications built using vanilla javascript or jquery is hard to test. also there are some fuctionalities which we have to right from scratch when using javascript or jquery and this is the reason over past few years various frameworks have been built and evolve to make web development easier. and angular is an example of one such framework.
+ //Limitations of javascript or jquery
+ Qu. why you might want to use angular for your next web application project.
+ Ans. we might say that all these things are also possible with playing javascript and or jQuery then why we need a completely new framework like angular for this. well we can certainly use javascript or jQuery to do the same thing which we do with angular but if we use javascript or jQuery as the application grows the appication gets more and more complex and vanilla javascript or jquery code becomes hard to maintain and we will need a way to properly structure our application a lot of applications built using vanilla javascript or jquery is hard to test. also there are some fuctionalities which we have to write from scratch when using javascript or jquery and this is the reason over past few years various frameworks have been built and evolve to make web development easier. and angular is an example of one such framework.
 
 
  // => Advantages of using angular
   There are several benefits of using angular framework for developing applications instead of using vanilla javascript or jquery .
-  // Angular gives our application a clean and loosely coupled structure that is east to understand and easy to maintain. it also brings a lot of utility code which we can re-used in a lot of applications, Especially when dealing with user navigation and browser history. Applications built with angular are most testable we can easily write automated tests to test various parts of a angular application.
+  // Angular gives our application a clean and loosely coupled structure that is easy to understand and easy to maintain. it also brings a lot of utility code which we can re-used in a lot of applications, Especially when dealing with user navigation and browser history. Applications built with angular are most testable we can easily write automated tests to test various parts of a angular application.
 
   // => so over past few years there are several versions of angular that has been released. so let's know what are these versions and how they are diffrent ?
 
@@ -77,3 +77,31 @@ npm install - global @angular/cli@latest
 application on localhost :4200
 // In order to kill the process we can simply press ctrl+C , so the process has been terminated now we should not be able to access this web application
 
+
+// web page ui's view page source's html is coming from index.html file, in view page source has some extra things like script which fave been added here but these script are not there in index.html apart from this everything available so this html content is also available here when we are viewing the page source.
+
+// so we know that when we are running our angular project in the browser index.html file is getting loaded and it is being getting rendred.
+
+Qu. where these scripts are coming from ?
+Ans. these script are coming from angular cli basically when we run this ng serve command what it does is, it first compiles our project then it creates some bundles and then it inject these bundles in the index.html file so these bundles are the scripts which we see in page source these script files have been created by this ng serve command they have been bundled and they have been injected in our index.html file for angular project.
+
+
+
+Qu. In the ui we have so many things rendred but in the html file We only see this app root and this app root in not even a html element then what is this app root and when we are using this app root how it is rendering in this ui ?
+Ans. this app root here it is basically rendering a component, when we use this app root as a html element here it is going to render a component now which component is rendering here it is rendering app component and to see the app component you see this app folder and we have 5 files we also have app moduls.ts file but it's not part of that app component.
+A component consits of 4 main files=> .ts file the typescript file .ts is an extension of typescript file so we have .ts file, .html file, css file, we also have the spec.ts file so spec.ts file is not important this point of time basically spec.ts file we write the unit test for testing our unit components. but a component mainly has three files app.css, app.html, app.ts in these 4 files the most important component file is app.ts file this is a typescript file and in there you have acomponent class in this case the app component class name is app and this component class can be decorated wth component decorator when we create a component first we create a class in this case the class name is app and we need to decorate that class with this @component decorator In order to make that class a component class and to this @componet decorator here we are passing a object at in tis object we see we will have a selector which is app root so it is the same root which we are using in index.html so for a  component class when we specify a selector the value of that selector can be used as html element and that's have been doing here we are using the value of this selector this app root like an html element .
+
+
+
+// when we use selector like app root in that case what it is going to do is in place of in place of this selector it is going to render the template which is associated with that selector in this case with this selector this template is associated now this templete here it simply called templateurl because to this we are assigning a path the path of html file so in this case whereever  we will use this app root they are the content of this html file will be rendred.
+
+// now where this html file rendred ?
+// In the same app folder we see that we have that  app.html it thisapp.html we have some html and css so it is this html and css which is getting rendred in ui when we are useing this app root html element. 
+
+
+// Here we are writing static html for static html we don't need framework like angular we use a framework like angular in order to genrate dynamic content so we don't use angular for generate static content we use it for genreating dynamic content  so how can we genrate dynamic content using angular in this case .
+
+<h2> welcome to ekart <h2>
+here either we can say ekart or we can genrate that content dynamically for that we can go to app.ts in there we have property called title which is currently assigned with ekart and i go to app.html and here i will say to welcome to and double setup of {{}} like this and in there we specify title so here the value of this title property will be rendred so in this way we are genrating dynamic content whenever we will change the value of this title property it will change in browser so now we are genrating the content dynamically  and this concept here is called as data binding so basically we are binding this property in our html using this double set of {{}}. angular allow us to mix static html code with dynamic things we want to output in the code. 
+
+<h2> welcome to {{title}} <h2> 
