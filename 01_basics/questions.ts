@@ -114,7 +114,7 @@
 
 // create a component 
 // create a typescript class & export it.
-// Secorate the class with @component Decoretor.
+// decorate the class with @component Decoretor.
 // in order to use that class as component we need to declare that class in main module file. 
 
 
