@@ -107,3 +107,15 @@
 
 // What is typescript ?
 // typescript is a free & opensource programing language developed by microsoft. It is a superset of javascript that means any valid javascript code is also a valid typescript code .
+
+
+// what is component ?
+// A component is a small piece of user interface. every angular application has atleast one component that is called root element but simply we call it app component it has it's child component. An Angular application is essentially a tree of component. combining all these components together makes an angular ui.
+
+// create a component 
+// create a typescript class & export it.
+// Secorate the class with @component Decoretor.
+// in order to use that class as component we need to declare that class in main module file. 
+
+
+// important => a component is nothing but a typescript class.
