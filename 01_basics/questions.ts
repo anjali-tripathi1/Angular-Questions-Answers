@@ -104,3 +104,6 @@
 // here either we can say ekart or we can genrate that content dynamically for that we can go to app.ts in there we have property called title which is currently assigned with ekart and i go to app.html and here i will say to welcome to and double setup of {{}} like this and in there we specify title so here the value of this title property will be rendred so in this way we are genrating dynamic content whenever we will change the value of this title property it will change in browser so now we are genrating the content dynamically  and this concept here is called as data binding so basically we are binding this property in our html using this double set of {{}}. angular allow us to mix static html code with dynamic things we want to output in the code. 
 
 // <h2> welcome to {{title}} <h2> 
+
+// What is typescript ?
+// typescript is a free & opensource programing language developed by microsoft. It is a superset of javascript that means any valid javascript code is also a valid typescript code .
