@@ -135,3 +135,8 @@
 // }
 
 // so we take variables in class inside function but we can't take them directely in class. 
+
+// Qu. what is diffrence between ts.config.app.json and ts.config.json ?
+// Ans. the diffrence between both is that config.app file is specifically for app components and ts.config.json is for all application files.
+
+// Qu. what is diffrence between dependencies and devdependencies ?
