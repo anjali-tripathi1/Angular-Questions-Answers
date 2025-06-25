@@ -123,6 +123,9 @@
 
 // inside class we declare properties and outside of class we declare variables.
 
+
+// interpolation use => we use interpolation to display data from ts to html file. we can excute javascript code in {{}} in html file.
+
 // interview question
 
 // Qu. when we take class then we can't take ever variable, constant inside class ?
@@ -140,3 +143,14 @@
 // Ans. the diffrence between both is that config.app file is specifically for app components and ts.config.json is for all application files.
 
 // Qu. what is diffrence between dependencies and devdependencies ?
+// Ans.
+
+// Qu. what are the limitations of interpolation?
+// Ans. we can't assign and make variable, and can't use increment and decrment operator and can't use for loops directely.
+// <h1>{{Data= 30}}</h1>
+// <h1>{{x++}}</h1>
+// <h1>{{x--}}</h1>
+
+
+// Qu. How can you assure that which ts.component code is print on which html.component?
+// Ans. that urltemplate is in ts.component that's one html.component we will use. 
