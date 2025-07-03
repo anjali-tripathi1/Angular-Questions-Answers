@@ -126,6 +126,10 @@
 
 // interpolation use => we use interpolation to display data from ts to html file. we can excute javascript code in {{}} in html file.
 
+// Qu. what is component?
+// Ans. when we make very big things so it has small parts that is called component.
+
+
 // interview question
 
 // Qu. when we take class then we can't take ever variable, constant inside class ?
