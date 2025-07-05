@@ -158,3 +158,19 @@
 
 // Qu. How can you assure that which ts.component code is print on which html.component?
 // Ans. that urltemplate is in ts.component that's one html.component we will use. 
+
+
+// Qu. How to create components and what is commands ?
+// Ans. ng generate component name/ng g c name
+
+// Qu. what is component and how to change the selector ?
+// Ans. component is a application building blocks inside component we can create specific features. 
+// we can create component inside component and also can use one component many times. and for changing selector we need to go that components's ts. file and there we can change this.
+
+// Qu. how many files a component has ?
+// Ans. 4
+
+// Qu. How many types of components ?
+// Ans. 2
+// 1. Normal component
+//  2. Inline components
