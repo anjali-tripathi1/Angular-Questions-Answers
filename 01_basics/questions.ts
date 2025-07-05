@@ -174,3 +174,9 @@
 // Ans. 2
 // 1. Normal component
 //  2. Inline components
+
+//  Qu. what is custom component ?
+// Ans. custom component is that component that we make own.
+
+// Qu. How to call a function on button click ?
+
