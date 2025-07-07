@@ -180,3 +180,11 @@
 
 // Qu. How to call a function on button click ?
 
+// Qu. what is template refrence variable and How can we use that ?
+// Ans. trv is simply an id (#emailField) and for using that we write this.
+// <button (click)="getEmail(emailField.value)">Get Email</button>
+
+// Qu. How to load multiple css files in component?
+// Ans. styleUrls:['./app.css', './app-btn.css']
+
+// Qu. How to use global style file and How to use two global style files?
