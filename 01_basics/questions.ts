@@ -188,3 +188,8 @@
 // Ans. styleUrls:['./app.css', './app-btn.css']
 
 // Qu. How to use global style file and How to use two global style files?
+
+// Qu. what will we use if we have 20 conditions ?
+// Ans. if Else or Else if
+// In this situation we will use switch statement.
+// when we have 2 condition so use if Else and when we habe 5 or 6 condition so we can use Elseif but ig we have 10, 15, 20 condition so we will use switch statement.  
