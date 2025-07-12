@@ -196,3 +196,6 @@
 
 // Qu. can we change computed signal from any way?
 // Ans. yes we can update from any way but we can't update these direct they are readonly. but if we update its dependencies so this computed signal can be updated.
+
+// Qu. How to apply dynamic styling ?
+// Ams. 
