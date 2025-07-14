@@ -202,3 +202,12 @@
 
 // Qu. How will we do nested looping with ngfor ?
 // Ans. 
+
+// Qu. How does routerLinkActiveOptions work ?
+// Ans.
+
+// Qu. what is 404 page or page not found and for this where to add routing ?
+// 
+
+// Qu. what is wild card routing ?
+// Ans. 
