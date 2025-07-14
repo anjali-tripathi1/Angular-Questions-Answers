@@ -199,3 +199,6 @@
 
 // Qu. How to apply dynamic styling ?
 // Ams. 
+
+// Qu. How will we do nested looping with ngfor ?
+// Ans. 
