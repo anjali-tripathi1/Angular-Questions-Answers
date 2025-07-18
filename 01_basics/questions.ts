@@ -210,4 +210,10 @@
 // 
 
 // Qu. what is wild card routing ?
-// Ans. 
+// Ans. ** these double astris are called wild card routing. 
+
+// Qu. when we use formControl so which feature we have to import in reactive forms?
+// Ans. we have to import formControl featrue.
+
+// Qu. Do we need to use any module for reactiveform or what will be the flow ?
+// Ans. so for this we have to import ReactiveFormModule and formControl and then we have to bind property in template with formControl and then we can control this.
