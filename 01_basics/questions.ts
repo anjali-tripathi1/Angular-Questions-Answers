@@ -217,3 +217,6 @@
 
 // Qu. Do we need to use any module for reactiveform or what will be the flow ?
 // Ans. so for this we have to import ReactiveFormModule and formControl and then we have to bind property in template with formControl and then we can control this.
+
+// Qu. why do we use formgrouping and what is the flow of formgrouping ?
+// Ans. 
