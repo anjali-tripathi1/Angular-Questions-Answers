@@ -220,3 +220,14 @@
 
 // Qu. why do we use formgrouping and what is the flow of formgrouping ?
 // Ans. 
+
+
+// Qu. what is ng-template
+// Ans. <ng-template> is an Angular directive that is used to define template fragments that are not rendered directly to the DOM unless explicitly told to. It’s commonly used for conditional rendering, dynamic templates, and structural directives like *ngIf, *ngFor, or custom ones.
+
+
+// Qu. what is ng-container.
+// Ans. <ng-container> is a logical container in Angular that does not render any additional HTML in the DOM. It’s used to group elements or directives like *ngIf, *ngFor, etc., without introducing extra DOM elements (like <div> or <span>).
+
+// Qu. what is ng-content.
+// Ans. ng-content> is an Angular directive used for content projection — allowing you to insert external (parent-provided) content into a component’s template. This is especially useful for creating reusable and flexible components, such as modals, cards, or layout components.
