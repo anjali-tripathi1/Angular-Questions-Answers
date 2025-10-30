@@ -231,3 +231,26 @@
 
 // Qu. what is ng-content.
 // Ans. ng-content> is an Angular directive used for content projection — allowing you to insert external (parent-provided) content into a component’s template. This is especially useful for creating reusable and flexible components, such as modals, cards, or layout components.
+
+
+// what is authentication.
+// Ans. Authentication is the process of verifying the identity of a user, device, or system — basically confirming that something or someone is who or what they claim to be.
+// It’s a core concept in security and is used everywhere — from logging into a website to connecting devices on a network.
+// who is the user
+
+// what is authentication.
+// Ans. Authorization is the process of deciding what someone is allowed to do after they have been authenticated.
+// Authorization checks what you can access.
+
+
+// observable 
+// combining opertaor 
+// forkjoin , merge, combinelatest
+// filter
+// filter, deboucTime
+// map operator
+// map, scan, pluck,
+// error - retry, catchError
+// utility - tap, delay
+
+// angular material
